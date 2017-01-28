@@ -1,6 +1,6 @@
 name := "mockito-sugar-rush"
 
-version := "1.2-SNAPSHOT"
+version := "1.0"
 
 scalaVersion := "2.12.1"
 

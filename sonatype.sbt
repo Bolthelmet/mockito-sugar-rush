@@ -8,6 +8,10 @@ publishTo := {
     Some("releases" at nexus + "service/local/staging/deploy/maven2")
 }
 
+useGpg := true
+
+pgpReadOnly := false
+
 publishMavenStyle := true
 
 publishArtifact in Test := false
