@@ -1,12 +1,19 @@
 # What it is
 
 More concise syntax to use org.scalatest.mockito.MockitoSugar.mock:
-Instead of
+
+When having
 ```
 val service = mock[Service]
+```
+Instead of
+```
 when(service.method()).thenReturn(stubbedValue)
 ```
-Use `service.method returns stubbedValue`
+Use 
+```
+service.method returns stubbedValue
+```
 
 # Installation
 ## SBT:
