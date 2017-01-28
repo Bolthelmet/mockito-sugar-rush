@@ -6,11 +6,11 @@ When having
 ```
 val service = mock[Service]
 ```
-Instead of
+instead of
 ```
 when(service.method()).thenReturn(stubbedValue)
 ```
-Use 
+use 
 ```
 service.method returns stubbedValue
 ```
