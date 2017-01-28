@@ -2,6 +2,8 @@
 
 More concise syntax to use org.scalatest.mockito.MockitoSugar.mock:
 
+Make your spec extend `MockitoSugarRush` trait
+
 When having
 ```
 val service = mock[Service]
