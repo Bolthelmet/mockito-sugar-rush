@@ -3,4 +3,4 @@ Instead of
 val service = mock[Service]
 when(service.method()).thenReturn(stubbedValue)
 
-Use service.method returns stubbedValue
+Use """service.method returns stubbedValue"""
