@@ -1,5 +1,7 @@
 name := "mockito-sugar-rush"
 
+organization := "com.github.bolthelmet"
+
 version := "1.0"
 
 scalaVersion := "2.12.1"
