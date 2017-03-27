@@ -19,7 +19,7 @@ service.method returns stubbedValue
 
 # Installation
 ## SBT:
-libraryDependencies +=
+libraryDependencies += "com.github.bolthelmet" %% "mockito-sugar-rush" % "1.3.0" % Test
 
 ## Maven:
 
